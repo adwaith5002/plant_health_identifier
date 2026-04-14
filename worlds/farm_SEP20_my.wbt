@@ -1,0 +1,685 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "../protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/WateringCan.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Oak.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.1430161964795974 0.1602793261498017 -0.9766559809643693 1.4805597957997474
+  position -5.9803494705733184 20.580089749881033 6.839964084463926
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 20 20
+  appearance Parquetry {
+  }
+}
+Wall {
+  translation -9.95229 9.79704 0.52
+  rotation 0.5773489358556708 0.5773509358554485 0.5773509358554485 2.0944
+  name "wall(4)"
+  size 0.3 1 20
+  appearance Roughcast {
+    colorOverride 0.4 0.2 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+WateringCan {
+  translation 3.7459 0.959333 0
+}
+PottedTree {
+  translation -5.27223 2.26467 4.79616e-14
+  name "potted tree(66)"
+}
+PottedTree {
+  translation -5.38654 -0.00549654 4.79616e-14
+  name "potted tree(68)"
+}
+PottedTree {
+  translation -5.55307 -1.18615 4.79616e-14
+  name "potted tree(70)"
+}
+PottedTree {
+  translation -5.46063 -2.36516 4.79616e-14
+  name "potted tree(71)"
+}
+PottedTree {
+  translation -5.4798 -4.72699 4.79616e-14
+  name "potted tree(72)"
+}
+PottedTree {
+  translation -5.60156 -3.55436 4.79616e-14
+  name "potted tree(73)"
+}
+PottedTree {
+  translation -5.4286 1.15608 4.79616e-14
+  name "potted tree(69)"
+}
+PottedTree {
+  translation -5.23871 3.4085 4.79616e-14
+  name "potted tree(67)"
+}
+PottedTree {
+  translation -8.08898 -4.70069 4.79616e-14
+  name "potted tree(65)"
+}
+PottedTree {
+  translation 0.277864 -3.63416 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(33)"
+}
+PottedTree {
+  translation 0.379564 2.37774 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(24)"
+}
+PottedTree {
+  translation -1.41063 0.982266 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(22)"
+}
+PottedTree {
+  translation 0.376956 3.2842 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(21)"
+}
+PottedTree {
+  translation -1.27811 7.73307 4.9738e-14
+  name "potted tree(17)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -1.28304 5.11572 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(15)"
+}
+PottedTree {
+  translation -3.71561 -8.53184 -1.01252e-13
+  name "potted tree(6)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation 0.352717 4.22639 4.9738e-14
+  name "potted tree(8)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation 0.423181 1.44092 4.9738e-14
+  name "potted tree(18)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation 0.389071 -0.584906 4.9738e-14
+  name "plant1"
+  potAndTreeColor 0 1 0
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation 0.344175 -2.68703 -1.06581e-14
+  name "potted tree(30)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -1.33833 -4.17263 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(35)"
+}
+PottedTree {
+  translation -7.59834 -7.15389 4.9738e-14
+  name "potted tree(31)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -5.7051 -7.06514 5.32907e-14
+  name "potted tree(42)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.42104 -4.00797 3.19744e-14
+  name "potted tree(43)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.32801 -0.0225799 2.84216e-14
+  name "potted tree(47)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.30976 1.84195 2.84216e-14
+  name "potted tree(51)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.34645 2.8796 3.5527e-14
+  name "potted tree(53)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.31842 3.61443 4.61851e-14
+  name "potted tree(54)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.21785 4.53822 5.68432e-14
+  name "potted tree(55)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.46106 5.54438 -1.4211e-14
+  name "potted tree(57)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.24735 8.68144 -4.97382e-14
+  name "potted tree(58)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.10507 7.70422 3.55269e-14
+  name "potted tree(60)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.19744 6.61958 1.45661e-13
+  name "potted tree(59)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -5.57543 -5.96838 5.32905e-14
+  name "potted tree(56)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.35693 0.820465 3.19743e-14
+  name "potted tree(52)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.3204 -1.07173 2.13162e-14
+  name "potted tree(50)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.47116 -2.14024 3.90798e-14
+  name "potted tree(49)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.39054 -3.08041 3.90798e-14
+  name "potted tree(48)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.58131 -4.86256 6.39488e-14
+  name "potted tree(46)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.48074 -5.82953 5.68434e-14
+  name "potted tree(45)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -3.43643 -7.03575 4.9738e-14
+  name "potted tree(44)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -7.92268 2.24885 6.03961e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(39)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -7.67124 4.57908 6.03961e-14
+  name "potted tree(82)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -7.62453 7.49414 6.03961e-14
+  name "potted tree(83)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -7.94977 -0.234216 6.03961e-14
+  name "potted tree(81)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -8.0424 -2.62081 6.03961e-14
+  name "potted tree(80)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -7.71935 -5.79257 6.03961e-14
+  name "potted tree(79)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation 0.396879 -7.8085 5.68434e-14
+  name "potted tree(41)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation 0.458894 -6.72065 5.32907e-14
+  name "potted tree(40)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -1.55154 -7.27701 4.9738e-14
+  name "potted tree(38)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -1.56959 -6.10632 4.9738e-14
+  name "potted tree(37)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -1.38682 2.90685 4.9738e-14
+  name "potted tree(36)"
+  potAndTreeColor 0.9 1 1
+  leavesColor 0 1 0
+}
+PottedTree {
+  translation -7.36642 8.63848 5.41788e-14
+  name "potted tree(5)"
+}
+PottedTree {
+  translation -8.04105 1.12825 5.41788e-14
+  name "potted tree(74)"
+}
+PottedTree {
+  translation -7.90293 -1.30622 5.41788e-14
+  name "potted tree(77)"
+}
+PottedTree {
+  translation -7.92635 -3.76312 5.41788e-14
+  name "potted tree(78)"
+}
+PottedTree {
+  translation -7.80949 3.455 5.41788e-14
+  rotation 0 0 1 0.523599
+  name "potted tree(76)"
+}
+PottedTree {
+  translation -7.57689 6.24493 5.41788e-14
+  name "potted tree(75)"
+}
+PottedTree {
+  translation -5.35604 5.43172 6.39488e-14
+  name "potted tree(4)"
+}
+PottedTree {
+  translation -1.31637 6.83615 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(3)"
+}
+PottedTree {
+  translation -1.25135 6.00344 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(11)"
+}
+PottedTree {
+  translation -1.42985 2.00225 5.32907e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(12)"
+}
+PottedTree {
+  translation -1.40452 0.00452261 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(20)"
+}
+PottedTree {
+  translation -1.47703 -0.937895 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(25)"
+}
+PottedTree {
+  translation -1.30034 -3.10925 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(26)"
+}
+PottedTree {
+  translation 0.612559 -5.87819 5.32907e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(28)"
+}
+PottedTree {
+  translation 0.424486 -4.62193 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(34)"
+}
+PottedTree {
+  translation -1.45661 -5.24226 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(29)"
+}
+PottedTree {
+  translation -1.49781 -1.91457 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(27)"
+}
+DEF plant2 PottedTree {
+  translation 0.574356 -1.85414 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(23)"
+  potAndTreeColor 0.5 0.6 0.5
+}
+DEF plants3 PottedTree {
+  translation 0.492153 0.486675 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(32)"
+}
+PottedTree {
+  translation 0.397865 5.21138 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(19)"
+}
+PottedTree {
+  translation -1.3785 4.3749 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(13)"
+}
+PottedTree {
+  translation -1.31086 3.65019 5.15143e-14
+  rotation 0 0 1 4.692820414042842e-06
+  name "potted tree(14)"
+}
+PottedTree {
+  translation -7.91042 5.29838 1.56319e-13
+  name "potted tree(7)"
+}
+PottedTree {
+  translation 0.356077 6.13474 4.9738e-14
+}
+PottedTree {
+  translation 0.396043 7.78007 6.21725e-14
+  name "potted tree(9)"
+}
+PottedTree {
+  translation 0.439639 6.95024 5.86198e-14
+  name "potted tree(10)"
+}
+PottedTree {
+  translation -1.31039 8.63229 4.79616e-14
+  name "potted tree(1)"
+}
+PottedTree {
+  translation 0.514108 8.67418 9.23706e-14
+  name "potted tree(2)"
+}
+Wall {
+  translation -9.89179 9.93732 0.52
+  rotation -1 -6.88391e-07 -1.72486e-06 -1.5707953071795862
+  size 0.3 1 20
+  appearance Roughcast {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 9.89157 9.94812 0.52
+  rotation -1 -6.88391e-07 -1.72486e-06 -1.5707953071795862
+  name "wall(3)"
+  size 0.3 1 20
+  appearance Roughcast {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 5.40063 9.84489 2.6
+  rotation -1 -6.88391e-07 -1.72486e-06 -1.5707953071795862
+  name "wall(2)"
+  size 0.3 5 20
+  appearance Roughcast {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -10.0096 -10.0181 0.52
+  rotation 0.5773489358556708 0.5773509358554485 0.5773509358554485 2.0944
+  name "wall(1)"
+  size 0.3 1 20
+  appearance Roughcast {
+    colorOverride 0.3 0.2 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Oak {
+  translation 8.97554 2.98823 0
+}
+Oak {
+  translation 8.88695 1.41941 -1.45661e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(1)"
+}
+Oak {
+  translation 8.95679 -0.910778 -0.02
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(5)"
+}
+Oak {
+  translation 8.84013 -2.64342 -1.45661e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(7)"
+}
+Oak {
+  translation 8.49753 -5.39529 -1.49214e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(6)"
+}
+Oak {
+  translation 8.55815 -8.81659 -1.49214e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(9)"
+}
+Oak {
+  translation 8.59236 -7.7782 -1.52767e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(11)"
+}
+Oak {
+  translation 8.56752 -6.62579 -1.52767e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(10)"
+}
+Oak {
+  translation 8.41079 -3.94884 -1.45661e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(8)"
+}
+Oak {
+  translation 8.94141 4.96493 -1.45661e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(4)"
+}
+Oak {
+  translation 8.47069 9.07289 -1.31451e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(2)"
+}
+Oak {
+  translation 8.78743 7.33602 -1.38556e-13
+  rotation 0 0 1 -0.523595307179586
+  name "oak tree(3)"
+}
+DEF WEEDBOT Pioneer3dx {
+  hidden position_0_0 -4.570669705176295
+  hidden position_0_1 144.17441378541923
+  hidden position_0_2 94.74503636170408
+  hidden linearVelocity_0 0.055353305000600116 -0.04933797804709922 -0.0002024266173010137
+  hidden angularVelocity_0 -0.002132859840240921 0.0029257148565800008 -1.1810514786601332
+  hidden translation_1 -0.1918 0 0
+  hidden rotation_1 -0.9949998062728733 -0.07062356766303411 -0.07062363065921583 4.707376319773342
+  hidden position_1_0 -190.80698367648097
+  hidden linearVelocity_1 0.1619221225187059 -0.15685051438557265 -0.0006187569787025249
+  hidden angularVelocity_1 -0.000466667837212034 0.004451300367996859 -1.1213246369737924
+  hidden translation_2 0 -0.0521014 0.012843
+  hidden rotation_2 -1 0 0 2.311424461093374
+  hidden linearVelocity_2 0.16805123612943434 -0.14763846430907068 -0.0005794305704314667
+  hidden angularVelocity_2 3.679411912209048 4.734140243325045 -1.4026600183437115
+  hidden translation_4 0 0.165 0
+  hidden rotation_4 -0.6323228148726991 0.6323228257935768 0.447588764126058 3.9832866241397653
+  hidden linearVelocity_4 -0.13730770093747427 -0.13073221964750997 2.042385329838207e-05
+  hidden angularVelocity_4 1.3781133880235719 -1.4448497288235156 -1.192451652253615
+  hidden translation_9 0 -0.165 0
+  hidden rotation_9 -0.6916656222139193 0.6916656508161371 0.2078395884535027 3.5514370278621774
+  hidden linearVelocity_9 0.14596696928187888 0.13878554264683088 6.586774319635511e-05
+  hidden angularVelocity_9 -1.3825177215495066 1.4505964579804387 -1.1910680128446782
+  translation -3.798776281380664 6.169607445000878 0.09490410684681153
+  rotation 0.019297176088303492 0.007277850383571193 0.9997873033244677 -2.4007543241485916
+  name "weedbot"
+  controller "plant_identifier"
+  supervisor TRUE
+  extensionSlot [
+    DEF weedCam Camera {
+      translation 0 0 0.3
+      name "weedCam"
+      recognitionColors [
+        1 1 1
+        0 1 0
+      ]
+      fieldOfView 1
+      width 256
+      height 256
+      recognition Recognition {
+      }
+    }
+    DEF waterLED LED {
+      name "waterLED"
+      color [
+        0 0 1
+      ]
+    }
+    DEF pesticideLED LED {
+      name "pesticideLED"
+      color [
+        0 1 0
+      ]
+    }
+  ]
+}
+DEF plant Solid {
+  translation 3 1 0.15
+  children [
+    DEF flower Solid {
+      translation 0 0 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.4 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Sphere {
+        radius 0.1
+      }
+    }
+    DEF base_plant Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.6 0.5 0.3
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.15
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Cylinder {
+        height 0.3
+        radius 0.15
+      }
+    }
+    DEF stem Solid {
+      translation 0 0 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.5
+            radius 0.02
+          }
+        }
+      ]
+      boundingObject Cylinder {
+        height 0.5
+        radius 0.02
+      }
+    }
+  ]
+}
+DirectionalLight {
+  direction -0.4 -1 -0.3
+  intensity 0.8
+  castShadows TRUE
+}

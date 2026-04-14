@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pym
+*.pyc
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tmp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Webots / simulation outputs
+*.log
+*.csv
+*.db
+*.sqlite3
+
+# Generated files
+*.class
+*.jar
+
+# OS generated files
+ehthumbs.db
+Icon
+
+# Build directories
+build/
+
+# Temporary files
+*~
